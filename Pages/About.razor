@@ -1,0 +1,48 @@
+@page "/about"
+@using MudBlazor
+<PageTitle>About Us</PageTitle>
+<MudContainer MaxWidth="MaxWidth.Medium" Class="my-4">
+    <MudPaper Class="pa-4" Elevation="2" Square="false">
+        <MudGrid Justify="Justify.Center">
+            <MudItem xs="12" md="12">
+                <MudText Typo="Typo.h4" GutterBottom="true" Class="text-center">About Us</MudText>
+                <MudText Typo="Typo.body1" Align="Align.Center">
+                    Welcome to our page! We are a group of classmates who have journeyed together through the challenges and triumphs of our academic life.
+                </MudText>
+            </MudItem>
+            <MudItem xs="12" md="4">
+                <MudCard Elevation="3" Class="mt-5 mx-3">
+                    <MudCardContent>
+                        <MudIcon Icon="@Icons.Material.Filled.Group" Size="Size.Large" Class="mb-2"/>
+                        <MudText Typo="Typo.h6">Our Vision</MudText>
+                        <MudText Typo="Typo.body2">
+                            Our vision is to support each other towards achieving excellence in our studies and future careers, fostering an environment of mutual respect, collaboration, and lifelong learning.
+                        </MudText>
+                    </MudCardContent>
+                </MudCard>
+            </MudItem>
+            <MudItem xs="12" md="4">
+                <MudCard Elevation="3" Class="mt-5 mx-3">
+                    <MudCardContent>
+                        <MudIcon Icon="@Icons.Material.Filled.Lightbulb" Size="Size.Large" Class="mb-2"/>
+                        <MudText Typo="Typo.h6">What We Do</MudText>
+                        <MudText Typo="Typo.body2">
+                            We collaborate on projects, share resources, and help each other understand complex topics, ensuring we all succeed together.
+                        </MudText>
+                    </MudCardContent>
+                </MudCard>
+            </MudItem>
+            <MudItem xs="12" md="4">
+                <MudCard Elevation="3" Class="mt-5 mx-3">
+                    <MudCardContent>
+                        <MudIcon Icon="@Icons.Material.Filled.School" Size="Size.Large" Class="mb-2"/>
+                        <MudText Typo="Typo.h6">Join Us</MudText>
+                        <MudText Typo="Typo.body2">
+                            If you're interested in learning more about our activities or joining our group, feel free to contact us. We welcome new members with open arms!
+                        </MudText>
+                    </MudCardContent>
+                </MudCard>
+            </MudItem>
+        </MudGrid>
+    </MudPaper>
+</MudContainer>

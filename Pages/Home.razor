@@ -1,0 +1,306 @@
+﻿@page "/"
+
+<PageTitle>Home</PageTitle>
+@* <div class="flex flex-wrap -mx-2 gap-6">
+@for (int i = 1; i <= 10; i++)
+{
+<div class="w-1/2 px-2 mb-4 ">
+<MudCard style="width: 370px; height: 270px" class="mx-[10px] mt-[20px]">
+<MudCardHeader>
+<CardHeaderAvatar>
+<MudAvatar Color="Color.Success">B</MudAvatar>
+</CardHeaderAvatar>
+<CardHeaderContent>
+<MudText Typo="Typo.body1">Bunthong</MudText>
+<MudText Typo="Typo.body2">Male</MudText>
+</CardHeaderContent>
+<CardHeaderActions>
+<MudIconButton Icon="@Icons.Material.Filled.Settings" Color="Color.Default" />
+</CardHeaderActions>
+</MudCardHeader>
+<MudCardMedia
+Image="https://img.freepik.com/free-psd/3d-illustration-person-with-sunglasses_23-2149436188.jpg?w=1380&t=st=1715666720~exp=1715667320~hmac=c2e49961d82ad0a23f047212bf3fe409a1b89141d955a9783ec6789f72519db2"
+/>
+<MudCardContent class="bg-green-200">
+<MudText Typo="Typo.body2">Tending to a variety of plants, flowers, and vegetables in their backyard
+garden.</MudText>
+</MudCardContent>
+<MudCardActions class="bg-green-200">
+<MudIconButton Icon="@Icons.Material.Filled.Favorite" />
+<MudIconButton Icon="@Icons.Material.Filled.Share" />
+</MudCardActions>
+</MudCard>
+</div>
+}
+</div> *@
+
+
+
+<MudContainer class="container mx-auto flex flex-wrap">
+    @* row 1 *@
+    <div class="flex">
+        @*card 1 *@
+        <MudCard style="width: 370px; height: 270px" class="mx-[10px] mt-[20px]">
+            <MudCardHeader>
+                <CardHeaderAvatar>
+                    <MudAvatar Color="Color.Success">B</MudAvatar>
+                </CardHeaderAvatar>
+                <CardHeaderContent>
+                    <MudText Typo="Typo.body1">Bunthong</MudText>
+                    <MudText Typo="Typo.body2">Male</MudText>
+                </CardHeaderContent>
+                <CardHeaderActions>
+                    <MudIconButton Icon="@Icons.Material.Filled.Settings" Color="Color.Default" />
+                </CardHeaderActions>
+            </MudCardHeader>
+            <MudCardMedia
+                Image="https://img.freepik.com/free-psd/3d-rendering-avatar_23-2150833556.jpg?t=st=1715670375~exp=1715670975~hmac=1ded58d9b662cc5faffb839c208d09b5864ac9138340ea8a5d59c11c333d6f27" />
+            <MudCardContent class="bg-green-200">
+                <MudText Typo="Typo.body2">Tending to a variety of plants, flowers, and vegetables in their backyard
+                    garden.</MudText>
+            </MudCardContent>
+            <MudCardActions class="bg-green-200">
+                <MudIconButton Icon="@Icons.Material.Filled.Favorite" />
+                <MudIconButton Icon="@Icons.Material.Filled.Share" />
+            </MudCardActions>
+        </MudCard>
+
+        @*card 2 *@
+        <MudCard style="width: 370px; height: 270px" class="mx-[10px] mt-[20px]">
+            <MudCardHeader>
+                <CardHeaderAvatar>
+                    <MudAvatar Color="Color.Secondary">T</MudAvatar>
+                </CardHeaderAvatar>
+                <CardHeaderContent>
+                    <MudText Typo="Typo.body1">Sothak</MudText>
+                    <MudText Typo="Typo.body2">Male</MudText>
+                </CardHeaderContent>
+                <CardHeaderActions>
+                    <MudIconButton Icon="@Icons.Material.Filled.Settings" Color="Color.Default" />
+                </CardHeaderActions>
+            </MudCardHeader>
+            <MudCardMedia
+                Image="https://img.freepik.com/free-psd/3d-rendering-avatar_23-2150833584.jpg?t=st=1715670375~exp=1715670975~hmac=0688a30e27821df69e350eafd143a891061566c193f004e11e2020b2c9f5acc6" />
+            <MudCardContent class="bg-green-200">
+                <MudText Typo="Typo.body2">Exploring new hiking trails, rock climbing, and camping in different natural
+                    settings.</MudText>
+            </MudCardContent>
+            <MudCardActions class="bg-green-200">
+                <MudIconButton Icon="@Icons.Material.Filled.Favorite" Color="Color.Default" />
+                <MudIconButton Icon="@Icons.Material.Filled.Share" Color="Color.Default" />
+            </MudCardActions>
+        </MudCard>
+    </div>
+    @* row 2 *@
+    <div class="flex mt-[250px]">
+        @*card 1 *@
+        <MudCard style="width: 370px; height: 270px" class="mx-[10px] mt-[20px]">
+            <MudCardHeader>
+                <CardHeaderAvatar>
+                    <MudAvatar Color="Color.Default">V</MudAvatar>
+                </CardHeaderAvatar>
+                <CardHeaderContent>
+                    <MudText Typo="Typo.body1">Virak</MudText>
+                    <MudText Typo="Typo.body2">Male</MudText>
+                </CardHeaderContent>
+                <CardHeaderActions>
+                    <MudIconButton Icon="@Icons.Material.Filled.Settings" Color="Color.Default" />
+                </CardHeaderActions>
+            </MudCardHeader>
+            <MudCardMedia
+                Image="https://img.freepik.com/free-psd/3d-rendering-avatar_23-2150833570.jpg?t=st=1715670375~exp=1715670975~hmac=5ba995e4f739eaf3574bf5e25ac127d11dccad4f2c3b3d633b44ec131adf8f70" />
+            <MudCardContent class="bg-green-200">
+                <MudText Typo="Typo.body2">Diving into different genres of literature, joining book clubs, and attending author readings.</MudText>
+            </MudCardContent>
+            <MudCardActions class="bg-green-200">
+                <MudIconButton Icon="@Icons.Material.Filled.Favorite" />
+                <MudIconButton Icon="@Icons.Material.Filled.Share" />
+            </MudCardActions>
+        </MudCard>
+
+        @*card 2 *@
+        <MudCard style="width: 370px; height: 270px" class="mx-[10px] mt-[20px]">
+            <MudCardHeader>
+                <CardHeaderAvatar>
+                    <MudAvatar Color="Color.Secondary">M</MudAvatar>
+                </CardHeaderAvatar>
+                <CardHeaderContent>
+                    <MudText Typo="Typo.body1">Manfa</MudText>
+                    <MudText Typo="Typo.body2">Male</MudText>
+                </CardHeaderContent>
+                <CardHeaderActions>
+                    <MudIconButton Icon="@Icons.Material.Filled.Settings" Color="Color.Default" />
+                </CardHeaderActions>
+            </MudCardHeader>
+            <MudCardMedia
+                Image="https://img.freepik.com/free-psd/3d-illustration-person-with-sunglasses_23-2149436188.jpg?w=1380&t=st=1715666720~exp=1715667320~hmac=c2e49961d82ad0a23f047212bf3fe409a1b89141d955a9783ec6789f72519db2" />
+            <MudCardContent class="bg-green-200">
+                <MudText Typo="Typo.body2">Playing various musical instruments, composing their own songs, and performing at local venues.</MudText>
+            </MudCardContent>
+            <MudCardActions class="bg-green-200">
+                <MudIconButton Icon="@Icons.Material.Filled.Favorite" Color="Color.Default" />
+                <MudIconButton Icon="@Icons.Material.Filled.Share" Color="Color.Default" />
+            </MudCardActions>
+        </MudCard>
+    </div>
+    @* row 3 *@
+    <div class="flex mt-[250px]">
+        @*card 1 *@
+        <MudCard style="width: 370px; height: 270px" class="mx-[10px] mt-[20px]">
+            <MudCardHeader>
+                <CardHeaderAvatar>
+                    <MudAvatar Color="Color.Success">N</MudAvatar>
+                </CardHeaderAvatar>
+                <CardHeaderContent>
+                    <MudText Typo="Typo.body1">Nita</MudText>
+                    <MudText Typo="Typo.body2">Female</MudText>
+                </CardHeaderContent>
+                <CardHeaderActions>
+                    <MudIconButton Icon="@Icons.Material.Filled.Settings" Color="Color.Default" />
+                </CardHeaderActions>
+            </MudCardHeader>
+            <MudCardMedia
+                Image="https://img.freepik.com/free-psd/3d-rendering-avatar_23-2150833558.jpg?t=st=1715670375~exp=1715670975~hmac=1bb97840ca49ff717bc7525dfce4def57598018a9bc87b3b84bc1432b318e644" />
+            <MudCardContent class="bg-green-200">
+                <MudText Typo="Typo.body2">Experimenting with diverse cuisines, hosting dinner parties, and trying out new recipes.</MudText>
+            </MudCardContent>
+            <MudCardActions class="bg-green-200">
+                <MudIconButton Icon="@Icons.Material.Filled.Favorite" />
+                <MudIconButton Icon="@Icons.Material.Filled.Share" />
+            </MudCardActions>
+        </MudCard>
+
+        @*card 2 *@
+        <MudCard style="width: 370px; height: 270px" class="mx-[10px] mt-[20px]">
+            <MudCardHeader>
+                <CardHeaderAvatar>
+                    <MudAvatar Color="Color.Secondary">He</MudAvatar>
+                </CardHeaderAvatar>
+                <CardHeaderContent>
+                    <MudText Typo="Typo.body1">Sok Heng</MudText>
+                    <MudText Typo="Typo.body2">Male</MudText>
+                </CardHeaderContent>
+                <CardHeaderActions>
+                    <MudIconButton Icon="@Icons.Material.Filled.Settings" Color="Color.Default" />
+                </CardHeaderActions>
+            </MudCardHeader>
+            <MudCardMedia
+                Image="https://img.freepik.com/free-psd/3d-illustration-person-with-sunglasses_23-2149436188.jpg?w=1380&t=st=1715666720~exp=1715667320~hmac=c2e49961d82ad0a23f047212bf3fe409a1b89141d955a9783ec6789f72519db2" />
+            <MudCardContent class="bg-green-200">
+                <MudText Typo="Typo.body2">Capturing moments through their camera lens, exploring different photography techniques, and showcasing their work online.</MudText>
+            </MudCardContent>
+            <MudCardActions class="bg-green-200">
+                <MudIconButton Icon="@Icons.Material.Filled.Favorite" Color="Color.Default" />
+                <MudIconButton Icon="@Icons.Material.Filled.Share" Color="Color.Default" />
+            </MudCardActions>
+        </MudCard>
+    </div>
+
+    @* row 4 *@
+    <div class="flex mt-[250px]">
+        @*card 1 *@
+        <MudCard style="width: 370px; height: 270px" class="mx-[10px] mt-[20px]">
+            <MudCardHeader>
+                <CardHeaderAvatar>
+                    <MudAvatar Color="Color.Success">M</MudAvatar>
+                </CardHeaderAvatar>
+                <CardHeaderContent>
+                    <MudText Typo="Typo.body1">Mane</MudText>
+                    <MudText Typo="Typo.body2">Male</MudText>
+                </CardHeaderContent>
+                <CardHeaderActions>
+                    <MudIconButton Icon="@Icons.Material.Filled.Settings" Color="Color.Default" />
+                </CardHeaderActions>
+            </MudCardHeader>
+            <MudCardMedia
+                Image="https://img.freepik.com/free-psd/3d-illustration-person-with-sunglasses_23-2149436188.jpg?w=1380&t=st=1715666720~exp=1715667320~hmac=c2e49961d82ad0a23f047212bf3fe409a1b89141d955a9783ec6789f72519db2" />
+            <MudCardContent class="bg-green-200">
+                <MudText Typo="Typo.body2">Building furniture, crafting home decor items, and tackling renovation projects around the house.</MudText>
+            </MudCardContent>
+            <MudCardActions class="bg-green-200">
+                <MudIconButton Icon="@Icons.Material.Filled.Favorite" />
+                <MudIconButton Icon="@Icons.Material.Filled.Share" />
+            </MudCardActions>
+        </MudCard>
+
+        @*card 2 *@
+        <MudCard style="width: 370px; height: 270px" class="mx-[10px] mt-[20px]">
+            <MudCardHeader>
+                <CardHeaderAvatar>
+                    <MudAvatar Color="Color.Secondary">K</MudAvatar>
+                </CardHeaderAvatar>
+                <CardHeaderContent>
+                    <MudText Typo="Typo.body1">Kiet Seng</MudText>
+                    <MudText Typo="Typo.body2">Male</MudText>
+                </CardHeaderContent>
+                <CardHeaderActions>
+                    <MudIconButton Icon="@Icons.Material.Filled.Settings" Color="Color.Default" />
+                </CardHeaderActions>
+            </MudCardHeader>
+            <MudCardMedia
+                Image="https://img.freepik.com/free-psd/3d-illustration-person-with-sunglasses_23-2149436188.jpg?w=1380&t=st=1715666720~exp=1715667320~hmac=c2e49961d82ad0a23f047212bf3fe409a1b89141d955a9783ec6789f72519db2" />
+            <MudCardContent class="bg-green-200">
+                <MudText Typo="Typo.body2">Engaging in activities like running, weightlifting, yoga, and participating in marathons or fitness challenges.</MudText>
+            </MudCardContent>
+            <MudCardActions class="bg-green-200">
+                <MudIconButton Icon="@Icons.Material.Filled.Favorite" Color="Color.Default" />
+                <MudIconButton Icon="@Icons.Material.Filled.Share" Color="Color.Default" />
+            </MudCardActions>
+        </MudCard>
+    </div>
+
+    @* row 5 *@
+    <div class="flex mt-[250px]">
+        @*card 1 *@
+        <MudCard style="width: 370px; height: 270px" class="mx-[10px] mt-[20px]">
+            <MudCardHeader>
+                <CardHeaderAvatar>
+                    <MudAvatar Color="Color.Success">Se</MudAvatar>
+                </CardHeaderAvatar>
+                <CardHeaderContent>
+                    <MudText Typo="Typo.body1">Serey Rith</MudText>
+                    <MudText Typo="Typo.body2">Male</MudText>
+                </CardHeaderContent>
+                <CardHeaderActions>
+                    <MudIconButton Icon="@Icons.Material.Filled.Settings" Color="Color.Default" />
+                </CardHeaderActions>
+            </MudCardHeader>
+            <MudCardMedia
+                Image="https://img.freepik.com/free-psd/3d-illustration-person-with-sunglasses_23-2149436188.jpg?w=1380&t=st=1715666720~exp=1715667320~hmac=c2e49961d82ad0a23f047212bf3fe409a1b89141d955a9783ec6789f72519db2" />
+            <MudCardContent class="bg-green-200">
+                <MudText Typo="Typo.body2">Hosting game nights with friends and family, collecting a variety of board games, and attending gaming conventions to discover new favorites.</MudText>
+            </MudCardContent>
+            <MudCardActions class="bg-green-200">
+                <MudIconButton Icon="@Icons.Material.Filled.Favorite" />
+                <MudIconButton Icon="@Icons.Material.Filled.Share" />
+            </MudCardActions>
+        </MudCard>
+
+        @*card 2 *@
+        <MudCard style="width: 370px; height: 270px" class="mx-[10px] mt-[20px]">
+            <MudCardHeader>
+                <CardHeaderAvatar>
+                    <MudAvatar Color="Color.Secondary">Vi</MudAvatar>
+                </CardHeaderAvatar>
+                <CardHeaderContent>
+                    <MudText Typo="Typo.body1">Visa</MudText>
+                    <MudText Typo="Typo.body2">Male</MudText>
+                </CardHeaderContent>
+                <CardHeaderActions>
+                    <MudIconButton Icon="@Icons.Material.Filled.Settings" Color="Color.Default" />
+                </CardHeaderActions>
+            </MudCardHeader>
+            <MudCardMedia
+                Image="https://img.freepik.com/free-psd/3d-illustration-person-with-sunglasses_23-2149436188.jpg?w=1380&t=st=1715666720~exp=1715667320~hmac=c2e49961d82ad0a23f047212bf3fe409a1b89141d955a9783ec6789f72519db2" />
+            <MudCardContent class="bg-green-200">
+                <MudText Typo="Typo.body2">Exploring new cities and countries, immersing themselves in different cultures, and documenting their adventures through blogs or vlogs.</MudText>
+            </MudCardContent>
+            <MudCardActions class="bg-green-200">
+                <MudIconButton Icon="@Icons.Material.Filled.Favorite" Color="Color.Default" />
+                <MudIconButton Icon="@Icons.Material.Filled.Share" Color="Color.Default" />
+            </MudCardActions>
+        </MudCard>
+    </div>
+
+
+</MudContainer>

@@ -1,0 +1,38 @@
+<MudNavMenu>
+    <MudNavLink Href="/" Match="NavLinkMatch.All">Home</MudNavLink>
+    
+    <MudNavLink Href="/about"  Match="NavLinkMatch.Prefix">About</MudNavLink>
+</MudNavMenu>
+
+
+
+
+@* <MudAppBar Elevation="1" Color="Color.Primary">
+    <MudIconButton Icon="@Icons.Material.Filled.Menu" Edge="Edge.Start" Color="Color.Inherit"
+                   OnClick="@ToggleDrawer" />
+    <MudNavMenu> Variant="Typo.h6" Class="ml-4">
+        My Application
+    </MudNavMenu>
+    <MudSpacer/>
+    <MudButton Color="Color.Inherit" Link="https://example.com">Home</MudButton>
+    <MudButton Color="Color.Inherit" Link="https://example.com/about">About</MudButton>
+    <MudButton Color="Color.Inherit" Link="https://example.com/contact">Contact</MudButton>
+</MudAppBar>
+
+<MudDrawer @bind-Open="_drawerOpen" ClipMode="DrawerClipMode.Always" Variant="DrawerVariant.Temporary">
+    <MudNavMenu>
+        <MudNavLink Icon="@Icons.Material.Filled.Dashboard" Href="https://example.com/dashboard">Dashboard</MudNavLink>
+        <MudNavLink Icon="@Icons.Material.Filled.Info" Href="https://example.com/info">Info</MudNavLink>
+        <MudNavLink Icon="@Icons.Material.Filled.Settings" Href="https://example.com/settings">Settings</MudNavLink>
+    </MudNavMenu>
+</MudDrawer>
+
+
+@code {
+    private bool _drawerOpen;
+
+    void ToggleDrawer()
+    {
+        _drawerOpen = !_drawerOpen;
+    }
+} *@
